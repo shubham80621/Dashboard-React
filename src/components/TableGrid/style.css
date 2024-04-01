@@ -1,0 +1,22 @@
+.myTable{
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+    /* table-layout: fixed; */
+
+    th{
+        font-weight: 400;
+    }
+
+    .productImg{
+        width: 60px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+}
+
+.myTable tr:nth-child(1){
+    border-bottom: 1px solid rgba(224, 224, 224, 0.829);
+    font-weight: 100;
+}

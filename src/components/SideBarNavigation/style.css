@@ -1,0 +1,79 @@
+
+.sideBar{
+    background-color: rgb(7, 7, 66);
+    width: 200px;  
+    height: 100%;
+    color: white;
+
+    .mainIcon{
+      height: 20px;
+    }
+    .sideTitle{
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .sideLinkOption{
+      font-size: 11px;
+      font-weight: 400;
+      display: flex;
+      gap: 7px;
+      flex-direction: row;
+      align-items: center;
+      padding: 5px 7px;
+      border-radius: 5px;
+      cursor: pointer;
+      opacity: 0.5;
+      img{
+        height:13px;
+        width: 13px;
+        
+      }
+      div{
+        margin-top: 3px;
+      }
+    }
+
+    .selected{
+      background-color: rgb(55, 55, 100);
+      opacity: 1;
+    }
+
+    .sideUser{
+      
+      .sideUserName{
+      font-size: 11px;
+      font-weight: 500;
+      }
+      .sideUserPosition{
+        font-size: 9px;
+        color: #ccc;
+      }
+      img{
+        height:25px;
+        width:25px;
+        border-radius: 10px;
+      }
+    }
+
+    .show{
+      display: flex!important;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .position-sm-static {
+      position: static !important;
+    }
+    .position-sm-relative {
+      position: relative !important;
+    }
+    .position-sm-absolute {
+      position: absolute !important;
+    }
+    .position-sm-fixed {
+      position: fixed !important;
+    }
+    .position-sm-sticky {
+      position: sticky !important;
+    }
+  }

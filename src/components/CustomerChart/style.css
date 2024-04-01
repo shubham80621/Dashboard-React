@@ -1,0 +1,60 @@
+
+  @media only screen and (max-width: 600px) {
+    .square-div {
+        width: 40vw;
+        height:40vw;
+      }
+    
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .square-div {
+        width: 30vw;
+        height:30vw;
+      }
+
+    
+::-webkit-scrollbar {
+  width: 6px; /* Adjust as needed */
+  height: 0px;
+}
+
+/* Style the thumb of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+  border-radius: 5px;
+}
+
+/* Style the track of the scrollbar */
+::-webkit-scrollbar-track {
+  background-color: lightgray;
+}  
+      
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .square-div {
+        width: 20vw;
+        height:20vw;
+      }
+      
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .square-div {
+        width: 15vw;
+        height:15vw;
+      }
+      
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .square-div {
+        width: 15vw;
+        height:15vw;
+      }
+      
+}
